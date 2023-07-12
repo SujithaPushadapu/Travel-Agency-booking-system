@@ -1,0 +1,27 @@
+.service__item{
+    padding: 1rem;
+    /* padding-top: 2rem; */
+    border-bottom: 1px solid var(--secondary-color);
+    border-right: 1px solid var(--secondary-color);
+    border-radius: 0.5rem;
+}
+.service__img{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-radius: 50px; */
+    background-color: var(--secondary-color);
+    padding: 0.1rem;
+    margin-bottom: 1rem;
+    line-height: 50px;
+}
+.service__img img{
+    width: 100%;
+}
+
+h5{
+    color: black;
+    /* padding: 10px; */
+}

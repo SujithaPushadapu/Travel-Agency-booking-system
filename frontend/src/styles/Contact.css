@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .contact_section {
+    padding-top: 250px;
+  }
+  
+  .section__title {
+    text-align: center;
+  }
+  
+  .contact {
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+  }
+  
+  .contact .content {
+    max-width: 800px;
+    text-align: center;
+  }
+  
+  .contact .content h2 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+  }
+  
+  .contact .content p {
+    font-weight: 300;
+    color: #fff;
+  }
+  
+  .container {
+    padding-top: 20px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .contactForm {
+    padding-top: 50px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+  }
+  
+  .container .contactInfo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .container .contactInfo .box {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+  }
+  
+  .container .contactInfo .box .icon {
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 30px;
+  }
+  
+  .container .contactInfo .box .text {
+    display: flex;
+    margin-left: 20px;
+    font-size: 22px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 300;
+  }
+  
+  .container .contactInfo .box h3 {
+    font-weight: 500;
+  }
+  
+  .contactForm {
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+    padding-top: 250px;
+    text-align: center;
+
+  }
+  
+  .contactForm h2 {
+    font-size: 30px;
+    font-weight: 500;
+  }
+  
+  .contactForm .inputBox {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .contactForm .inputBox textarea,
+  .contactForm .inputBox input {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 20px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+  }
+  
+  .contactForm .inputBox span {
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 20px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+  }
+  
+  .contactForm .inputBox input:valid~span,
+  .contactForm .inputBox textarea:focus~span,
+  .contactForm .inputBox textarea:valid~span,
+  .contactForm .inputBox input:focus~span {
+    font-size: 12px;
+    transform: translateY(-20px);
+  }
+  
+  .contactForm .inputBox input[type="submit"] {
+    width: 100px;
+    background-color: var(--secondary-color);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+  }
+  
+  @media (max-width: 991px) {
+    .contact {
+      padding: 50px;
+    }
+  
+    .container .contactInfo {
+      margin-bottom: 40px;
+    }
+  
+    .contactForm,
+    .container .contactInfo {
+      width: 100%;
+    }
+  }
+  
+  .contact-image-container {
+    align-items: center;
+    padding-top: 50px;
+    width: 10px; 
+    height:40px; 
+    margin-left: 400px; 
+
+  }
+  /* .contact-image{
+    width: 800px;
+    align-items:end;
+    padding-right: 10px;
+  } */
+  

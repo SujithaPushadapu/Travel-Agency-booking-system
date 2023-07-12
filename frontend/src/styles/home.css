@@ -1,0 +1,25 @@
+  .home-section {
+    background-size: cover;
+    background-position:center;
+    min-height: 80vh;
+    background-repeat: no-repeat;
+    /* margin-top: 0; */
+    
+  }
+  
+  .h-content {
+    margin-top: 200px;
+    text-align: center;
+    color: white;    
+  }
+  
+  .h-content h1 {
+    font-size: 42px;
+    font-weight: bold;
+    color:black;
+  }
+
+  .featured__tour-title{
+    font-size: 2.3rem;
+    font-weight: 500;
+  }
